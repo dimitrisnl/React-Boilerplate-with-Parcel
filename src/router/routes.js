@@ -1,25 +1,6 @@
 //page components
-import About from 'containers/About'
-import Landing from 'containers/Landing'
-import YetAnotherTodo from 'containers/YetAnotherTodo'
+import AboutRoutes from 'containers/about/_routes'
+import LandingRoutes from 'containers/landing/_routes'
+import ToDoRoutes from 'containers/todo/_routes'
 
-export default [
-  {
-    path: '/',
-    exact: true,
-    component: Landing,
-    name: 'Index',
-  },
-  {
-    path: '/about',
-    exact: true,
-    component: About,
-    name: 'About',
-  },
-  {
-    path: '/todo',
-    exact: true,
-    component: YetAnotherTodo,
-    name: 'Yet Another Todo',
-  },
-]
+export default [...AboutRoutes, ...LandingRoutes, ...ToDoRoutes]
