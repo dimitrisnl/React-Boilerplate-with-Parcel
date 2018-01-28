@@ -2,6 +2,16 @@
 
 :construction: :construction: In progress :construction: :construction:
 
+### Goal:
+The main purpose of this project, is to test out different libraries and patterns that I don't get the chance in my day-job projects.
+
+- Redux -> MobX
+- Sass/Emotion -> Everything as CSS-in-JS with Emotion
+- Sanctuary
+- Possibly RxJS
+- Different file structure
+
+
 [Sneak Peek](https://happy-elion-21b6f9.netlify.com/)
 
 ### To do:
@@ -14,4 +24,4 @@
 - [ ] Add [RxJS](https://github.com/Reactive-Extensions/RxJS) - (Revisit this)
 - [ ] Add some basic components
 
-Color palette is [NORD](https://github.com/arcticicestudio/nord)
+The color palette is [NORD](https://github.com/arcticicestudio/nord)
