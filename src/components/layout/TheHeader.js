@@ -15,7 +15,7 @@ export class TheHeader extends Component {
 
     return (
       <Wrapper>
-        <div>Header</div>
+        <Brand>Header</Brand>
         <Navigation>{links}</Navigation>
       </Wrapper>
     )
@@ -41,4 +41,7 @@ const Navigation = styled('div')`
 `
 const StyledLink = styled(Link)`
   padding: 0 0.6rem;
+`
+const Brand = styled('h1')`
+  font-size: 1.8rem;
 `

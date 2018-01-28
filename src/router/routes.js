@@ -1,6 +1,7 @@
 //page components
-import About from '../containers/About'
-import Landing from '../containers/Landing'
+import About from 'containers/About'
+import Landing from 'containers/Landing'
+import YetAnotherTodo from 'containers/YetAnotherTodo'
 
 export default [
   {
@@ -14,5 +15,11 @@ export default [
     exact: true,
     component: About,
     name: 'About',
+  },
+  {
+    path: '/todo',
+    exact: true,
+    component: YetAnotherTodo,
+    name: 'Yet Another Todo',
   },
 ]

@@ -13,7 +13,7 @@ export default TheFooter
 
 const Wrapper = styled.div`
   height: 4rem;
-  padding: 0 1rem;
+  padding: 0 2rem;
 
   background: ${nord.nord0};
   color: ${nord.nord4};
