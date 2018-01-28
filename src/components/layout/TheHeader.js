@@ -2,8 +2,8 @@ import React, { Component } from 'react'
 import styled from 'react-emotion'
 import { Link } from 'react-router-dom'
 
-import { nord } from '../../styles/colors'
-import routes from '../../router/routes'
+import { nord } from 'styles/colors'
+import routes from 'router/routes'
 
 export class TheHeader extends Component {
   render() {

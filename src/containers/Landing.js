@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import styled from 'react-emotion'
-import { bounce } from '../styles/animations'
+
+import { bounce } from 'styles/animations'
 
 export class Landing extends Component {
   render() {

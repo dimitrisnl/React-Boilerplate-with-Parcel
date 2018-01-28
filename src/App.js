@@ -2,12 +2,12 @@ import React, { Component, Fragment } from 'react'
 import { BrowserRouter as Router } from 'react-router-dom'
 import styled, { injectGlobal } from 'react-emotion'
 
-import resetStyles from './styles/reset'
-import { nord } from './styles/colors'
+import resetStyles from 'styles/reset'
+import { nord } from 'styles/colors'
 
-import AppRouter from './router'
-import Header from './components/layout/TheHeader'
-import Footer from './components/layout/TheFooter'
+import AppRouter from 'router'
+import Header from 'components/layout/TheHeader'
+import Footer from 'components/layout/TheFooter'
 
 class App extends Component {
   render() {

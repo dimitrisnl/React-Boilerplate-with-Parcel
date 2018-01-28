@@ -2,11 +2,17 @@
   "env": {
     "production": {
       "presets": ["env", "react"],
-      "plugins": [["emotion", { "hoist": true }]]
+      "plugins": [
+        ["emotion", { "hoist": true }],
+        ["module-resolver", { "root": ["./src"] }]
+      ]
     },
     "development": {
       "presets": ["env", "react"],
-      "plugins": [["emotion", { "sourceMap": true, "autoLabel": true }]]
+      "plugins": [
+        ["emotion", { "sourceMap": true, "autoLabel": true }],
+        ["module-resolver", { "root": ["./src"] }]
+      ]
     }
   }
 }

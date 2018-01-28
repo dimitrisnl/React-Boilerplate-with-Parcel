@@ -19,7 +19,7 @@ The main purpose of this project, is to test out different libraries and pattern
 
 * [x] Add [Emotion](https://github.com/emotion-js/emotion)
 * [x] Add Routing
-* [ ] Make paths absolute
+* [x] Make paths absolute
 * [x] Add a google font or something
 * [ ] Add [Sanctuary](https://github.com/sanctuary-js/sanctuary)
 * [ ] Add [MobX](https://github.com/mobxjs/mobx)

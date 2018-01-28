@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import styled from 'react-emotion'
 
-import { nord } from '../../styles/colors'
+import { nord } from 'styles/colors'
 
 export class TheFooter extends Component {
   render() {
