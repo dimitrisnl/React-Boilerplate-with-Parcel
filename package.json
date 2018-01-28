@@ -1,0 +1,28 @@
+{
+  "name": "react-boilerplate-with-parcel",
+  "license": "MIT",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development parcel index.html ",
+    "build:stage":
+      "cross-env NODE_ENV=stage parcel build index.html --no-minify --public-url /",
+    "build:production":
+      "cross-env NODE_ENV=production parcel build index.html --no-minify --public-url /"
+  },
+  "dependencies": {
+    "axios": "^0.17.1",
+    "emotion": "^8.0.12",
+    "parcel-bundler": "^1.4.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-emotion": "^8.0.12",
+    "react-router-dom": "^4.2.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^7.2.1",
+    "babel-plugin-emotion": "^8.0.12",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "cross-env": "^5.1.1",
+    "postcss-font-magician": "^2.1.0"
+  }
+}
