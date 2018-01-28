@@ -1,8 +1,14 @@
 import React, { Component } from 'react'
+import { Button } from 'components/minor'
 
 export class ToDo extends Component {
   render() {
-    return <div>soon_tm</div>
+    return (
+      <div>
+        <div>soon_tm</div>
+        <Button>Test</Button>
+      </div>
+    )
   }
 }
 
