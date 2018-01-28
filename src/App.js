@@ -30,6 +30,7 @@ injectGlobal`
 
   body{
     font-size: 1rem;
+    font-family: 'Nunito', sans-serif;
     color: ${nord.nord0};
   }
 `
