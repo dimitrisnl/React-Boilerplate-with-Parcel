@@ -5,6 +5,7 @@
 ### Goal:
 The main purpose of this project, is to test out different libraries and patterns that I don't get the chance in my day-job projects.
 
+- Webpack -> Parcel
 - Redux -> MobX
 - Sass/Emotion -> Everything as CSS-in-JS with Emotion
 - Sanctuary
