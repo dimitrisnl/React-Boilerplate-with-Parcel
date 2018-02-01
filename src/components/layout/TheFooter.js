@@ -15,8 +15,8 @@ const Wrapper = styled.div`
   height: 4rem;
   padding: 0 2rem;
 
-  background: ${nord.nord0};
-  color: ${nord.nord4};
+  background: ${props => props.theme.accent};
+  color: ${props => props.theme.complimentary};
 
   display: flex;
   align-items: center;

@@ -1,14 +1,14 @@
 {
   "env": {
     "production": {
-      "presets": ["env", "react"],
+      "presets": ["env", "react", "stage-0"],
       "plugins": [
         ["emotion", { "hoist": true }],
         ["module-resolver", { "root": ["./src"] }]
       ]
     },
     "development": {
-      "presets": ["env", "react"],
+      "presets": ["env", "react", "stage-0"],
       "plugins": [
         ["emotion", { "sourceMap": true, "autoLabel": true }],
         ["module-resolver", { "root": ["./src"] }]

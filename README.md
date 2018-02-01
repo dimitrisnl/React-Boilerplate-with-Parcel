@@ -21,7 +21,7 @@ The main purpose of this project, is to test out different libraries and pattern
 * [x] Add Routing
 * [x] Make paths absolute
 * [x] Add a google font or something
-* [ ] Add theme (dark/light) toggle
+* [x] Add themes and toggle
 * [ ] Add [Sanctuary](https://github.com/sanctuary-js/sanctuary)
 * [ ] Add [MobX](https://github.com/mobxjs/mobx)
 * [ ] Add [RxJS](https://github.com/Reactive-Extensions/RxJS) - (Revisit this)

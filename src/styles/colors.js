@@ -16,3 +16,28 @@ export const nord = {
   nord14: '#A3BE8C',
   nord15: '#B48EAD',
 }
+
+const baseTheme = {
+  background: '#fff',
+  complimentary: '#efefef',
+  text: nord.nord0,
+}
+
+export const themes = {
+  themeMain: {
+    ...baseTheme,
+    accent: nord.nord7,
+  },
+  themeGreen: {
+    ...baseTheme,
+    accent: nord.nord14,
+  },
+  themeRed: {
+    ...baseTheme,
+    accent: nord.nord11,
+  },
+  themePurple: {
+    ...baseTheme,
+    accent: nord.nord15,
+  },
+}
