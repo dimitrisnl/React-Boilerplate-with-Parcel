@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import styled from 'react-emotion'
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 
 import { Button } from 'components/minor'
 
@@ -10,7 +10,7 @@ import routes from 'router/routes'
 export class TheHeader extends Component {
   render() {
     const links = routes.map((route, index) => (
-      <StyledLink to={route.path} key={index}>
+      <StyledLink exact to={route.path} key={index} activeClassName="active">
         {route.name}
       </StyledLink>
     ))
@@ -73,7 +73,7 @@ const Navigation = styled('div')`
   display: flex;
   margin: 0 -0.6rem;
 `
-const StyledLink = styled(Link)`
+const StyledLink = styled(NavLink)`
   padding: 0 0.6rem;
   text-decoration: none;
   color: ${nord.nord3};
@@ -98,7 +98,8 @@ const StyledLink = styled(Link)`
     transition: opacity 0.3s ease-in-out;
   }
 
-  &:hover {
+  &:hover,
+  &.active {
     color: ${props => props.theme.accent};
     &:before {
       opacity: 1;

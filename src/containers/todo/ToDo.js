@@ -6,7 +6,6 @@ export class ToDo extends Component {
     return (
       <div>
         <div>soon_tm</div>
-        <Button>Test</Button>
       </div>
     )
   }

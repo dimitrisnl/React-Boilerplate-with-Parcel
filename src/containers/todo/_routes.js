@@ -2,9 +2,9 @@ import ToDo from './ToDo'
 
 export default [
   {
-    path: '/todo',
+    path: '/mobx',
     exact: true,
     component: ToDo,
-    name: 'Yet Another Todo',
+    name: 'MobX Example',
   },
 ]
