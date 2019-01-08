@@ -1,5 +1,7 @@
 # React Boilerplate with Parcel
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/dimitrisnl/React-Boilerplate-with-Parcel.svg)](https://greenkeeper.io/)
+
 :construction: :construction: In progress :construction: :construction:
 
 ### Goal:
